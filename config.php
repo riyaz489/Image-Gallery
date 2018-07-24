@@ -1,0 +1,1 @@
+<?php $con=mysqli_connect("localhost","riyaz","riyaz","gallery") or die("can't connect ");?>

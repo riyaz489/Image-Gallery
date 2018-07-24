@@ -1,0 +1,118 @@
+#m {
+    margin-right: 20%;
+}
+
+.row {
+    background-color: rgba(192, 76, 56, 0.274);
+    height: 35%;
+    width: 18%;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 2px 3px 4px rgba(32, 28, 28, 0.808);
+    display: inline-block;
+}
+
+.albm img {
+    height: 90%;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.box {
+    margin-top: -2%;
+    padding: 2px;
+    background-color: rgba(39, 124, 180, 0.644);
+    box-shadow: 2px 3px 4px rgba(32, 28, 28, 0.808);
+}
+
+.albm img:hover {
+    transition: all 1.2s;
+    opacity: 0.8;
+    transform: rotateY(360deg);
+    border: 2px solid rgb(12, 124, 12);
+}
+
+.ttl {
+    width: 90%;
+    background-color: rgba(32, 28, 28, 0.808);
+    margin: 2% 2%;
+    color: white;
+    padding: 2px;
+    font-size: 1.7vw;
+    overflow: hidden;
+}
+
+.list {
+    position: absolue;
+    width: 20%;
+    display: block;
+    margin-top: 0vh;
+    margin-left: 80%;
+}
+
+.l {
+    background-color: rgba(163, 45, 71, 0.808);
+    position: fixed;
+    width: 20%;
+}
+
+.list a,
+a:visited,
+a:active {
+    color: white;
+    font-size: 2vw;
+}
+
+.list a:hover,
+a:visited:hover,
+a:active:hover {
+    color: rgb(174, 209, 49);
+}
+
+.row2 {
+    background-color: rgba(128, 116, 116, 0.527);
+}
+
+.ttl2 {
+    background-color: rgba(179, 28, 40, 0.692);
+}
+
+.albm2 img:hover {
+    transition: all 1.2s;
+    opacity: 0.9;
+    transform: scale(1.4);
+    border: 2px solid rgb(12, 124, 12);
+}
+
+#full {
+    background-color: rgba(75, 67, 56, 0.479);
+    opacity: 0;
+    visibility: hidden;
+    height: 90vh;
+    width: 95vw;
+    position: absolute;
+    top: 0%;
+    padding: 2%;
+}
+
+#full:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#full:target #im {
+    height: 100%;
+    width: 100%;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-weight: 700;
+}
+
+#close a {
+    text-shadow: 1px 1px 2px rgba(221, 218, 233, 0.788);
+    color: rgba(0, 170, 248, 0.856);
+}
